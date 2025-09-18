@@ -318,10 +318,10 @@ theme_sticker <- function(size=1.2, ...) {
     radius <- 1
     h <- radius
     w <- sqrt(3)/2 * radius
-    m <- 1.02
+    m <- 1.05
     list(
       theme_transparent() +
-        theme(plot.margin = margin(b = -.2, l= -.2, unit = "lines"),
+        theme(plot.margin = margin(t=0, r=0, b=0, l=0, unit = "lines"),
               strip.text = element_blank(),
               line = element_blank(),
               text = element_blank(),
